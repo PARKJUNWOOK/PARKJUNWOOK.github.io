@@ -17,6 +17,7 @@
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
+      <!--
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
@@ -25,11 +26,12 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+      -->
       
       <!-- 메뉴생성라인 About 메뉴 찾아야함 -->
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/master.zip">Download111</a>
+      <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/master.zip">Download111</a>
       <hr>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project111</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project111</a> -->
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
